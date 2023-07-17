@@ -10,6 +10,8 @@ const clock = () => {
         let am = 'AM';
         if(hr > 12){
             hr = hr - 12;
+        }
+        if(hr >= 12){
             am='PM';
         }
         hr = (hr<10) ? '0'+hr : hr;
