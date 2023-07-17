@@ -11,4 +11,4 @@ const clock = () => {
         minutes.innerHTML=min;
         seconds.innerHTML=sec;
     }
-    setInterval(clock, 1000);
+setInterval(clock, 1000);
