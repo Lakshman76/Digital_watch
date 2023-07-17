@@ -110,3 +110,14 @@ img{
   .btn:focus {
     outline: 2px dotted #55d7dc;
   }
+
+  /* Media query */
+
+  @media screen and (max-width:580px){
+    .format{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
