@@ -21,4 +21,4 @@ const clock = () => {
         seconds.innerHTML=sec;
         ampm.innerHTML = am;
     }
-    setInterval(clock, 1000);
+setInterval(clock, 1000);

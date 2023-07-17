@@ -5,11 +5,27 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #060a1f;
+}
+nav{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+main{
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #060a1f;
 }
 #clock h2{
     color: #fff;
